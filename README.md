@@ -10,11 +10,11 @@ The package can be installed from github via either {pak} or {remotes}:
 ```
 # Option 1: install via {remotes}
 install.packages("remotes")
-remotes::install_github("nmfs-fish-tools/fishdictionary")
+remotes::install_github("nmfs-ost/fishdictionary")
 
 # Option 2: install via {pak}
 install.packages("pak")
-pak::pkg_install("nmfs-fish-tools/fishdictionary")
+pak::pkg_install("nmfs-ost/fishdictionary")
 ```
 Once you have installed {fishdictionary}, it can be loaded using:
 
