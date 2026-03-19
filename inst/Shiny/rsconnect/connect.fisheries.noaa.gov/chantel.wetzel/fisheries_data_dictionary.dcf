@@ -1,0 +1,12 @@
+name: fisheries_data_dictionary
+title: Fisheries Data Dictionary
+username: chantel.wetzel
+account: chantel.wetzel
+server: connect.fisheries.noaa.gov
+hostUrl: https://connect.fisheries.noaa.gov/__api__
+appId: 580
+bundleId: 4254
+url: https://connect.fisheries.noaa.gov/content/99cef84c-14de-45c6-9a24-47c1c707195c/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
