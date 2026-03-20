@@ -438,18 +438,18 @@
         "RemoteType": "github",
         "RemoteHost": "api.github.com",
         "RemoteRepo": "fishdictionary",
-        "RemoteUsername": "nmfs-fish-tools",
+        "RemoteUsername": "nmfs-ost",
         "RemoteRef": "HEAD",
-        "RemoteSha": "339d916358ea59cd74dd6371b37280d56aefa54c",
+        "RemoteSha": "e717c2e20f4a84edf48946f986d931d3d9e086e0",
         "GithubRepo": "fishdictionary",
-        "GithubUsername": "nmfs-fish-tools",
+        "GithubUsername": "nmfs-ost",
         "GithubRef": "HEAD",
-        "GithubSHA1": "339d916358ea59cd74dd6371b37280d56aefa54c",
+        "GithubSHA1": "e717c2e20f4a84edf48946f986d931d3d9e086e0",
         "NeedsCompilation": "no",
-        "Packaged": "2026-03-12 13:54:05 UTC; Chantel.Wetzel",
+        "Packaged": "2026-03-20 20:44:57 UTC; Chantel.Wetzel",
         "Author": "Chantel R. Wetzel [aut],\n  Christine C. Stawitz [aut, cre],\n  Bai Li [aut],\n  Kelli F. Johnson [aut]",
         "Maintainer": "Christine C. Stawitz <christine.stawitz@noaa.gov>",
-        "Built": "R 4.4.1; ; 2026-03-12 13:54:14 UTC; windows"
+        "Built": "R 4.4.1; ; 2026-03-20 20:45:08 UTC; windows"
       }
     },
     "fontawesome": {
