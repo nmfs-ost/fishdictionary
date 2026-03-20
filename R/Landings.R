@@ -8,9 +8,8 @@
 #' \describe{
 #' \item{Examples}{}
 #' \item{Rationale}{Landings and catch are sometimes thought to be
-#' interchangeable
-#' but they are not given that catch can also include bycatch or
-#' unwanted catch.}
+#' interchangeable but they are not, given that catch can also include bycatch or
+#' incidental catch.}
 #' \item{Alternatives}{retained catch, wanted catch}
 #' \item{Range of possible values}{0--Inf}
 #' \item{Units}{mt, numbers}
