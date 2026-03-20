@@ -430,7 +430,7 @@
         "License": "`use_gpl3_license()`",
         "Encoding": "UTF-8",
         "Roxygen": "list(markdown = TRUE)",
-        "RoxygenNote": "7.3.1",
+        "RoxygenNote": "7.3.3",
         "Imports": "mvbutils, tools",
         "Suggests": "testthat (>= 3.0.0)",
         "Config/testthat/edition": "3",
@@ -440,16 +440,16 @@
         "RemoteRepo": "fishdictionary",
         "RemoteUsername": "nmfs-ost",
         "RemoteRef": "HEAD",
-        "RemoteSha": "e717c2e20f4a84edf48946f986d931d3d9e086e0",
+        "RemoteSha": "943c461bbf40ea1b30fc9df5efd3e2de153bfa58",
         "GithubRepo": "fishdictionary",
         "GithubUsername": "nmfs-ost",
         "GithubRef": "HEAD",
-        "GithubSHA1": "e717c2e20f4a84edf48946f986d931d3d9e086e0",
+        "GithubSHA1": "943c461bbf40ea1b30fc9df5efd3e2de153bfa58",
         "NeedsCompilation": "no",
-        "Packaged": "2026-03-20 20:44:57 UTC; Chantel.Wetzel",
+        "Packaged": "2026-03-20 20:55:49 UTC; Chantel.Wetzel",
         "Author": "Chantel R. Wetzel [aut],\n  Christine C. Stawitz [aut, cre],\n  Bai Li [aut],\n  Kelli F. Johnson [aut]",
         "Maintainer": "Christine C. Stawitz <christine.stawitz@noaa.gov>",
-        "Built": "R 4.4.1; ; 2026-03-20 20:45:08 UTC; windows"
+        "Built": "R 4.4.1; ; 2026-03-20 20:55:59 UTC; windows"
       }
     },
     "fontawesome": {
