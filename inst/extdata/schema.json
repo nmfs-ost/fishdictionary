@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "title": "StockAssessmentDataDictionary",
-    "description": "Stock Assessment Data Dictionary Json Schema",
+    "title": "fishdictionary",
+    "description": "Stock Assessment Fish Dictionary Json Schema",
     "type": "object",
     "properties": {
         "name": {
@@ -16,6 +16,10 @@
         },
         "Examples": {
             "description": "Detailed information illustrating something that is characteristic of its kind or a general rule of thumb such that readers can grasp the concept of the term",
+            "type": "string"
+        },
+        "ICES code type": {
+            "description": "ICES code type if available",
             "type": "string"
         },
         "Units": {
@@ -35,5 +39,5 @@
             "type": "string"
         }
     },
-    "required": ["name", "description", "Units"]
+    "required": ["name", "description"]
 }
