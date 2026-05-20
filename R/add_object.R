@@ -1,7 +1,7 @@
 #' Function to add an object to the JSON
 #'
 #' @param input_list A list of fields corresponding to entries. Must include
-#'  \code{name,description,Examples, Units, Rationale, Alternatives, Range of possible values}
+#'  \code{name, description, Examples, ICES code type, Units, Rationale, Alternatives, Range of possible values}
 #' @return An R list in the JSON format which includes the new term.
 #' @export
 add_object <- function(input_list) {
@@ -11,7 +11,8 @@ add_object <- function(input_list) {
     package = "fishdictionary"
   ))
   # Return an error if the object already exists
-  if (input_list$name %in% sapply(json_obj, get, x = "name")) {
+  if (input_list$name %in% json_obj[["name"]]) {
+    #sapply(json_obj, FUN = get, x = "name")) {
     stop(input_list$name, " already exists.")
   }
   # Validate the json input and return an error if it fails
@@ -23,8 +24,8 @@ add_object <- function(input_list) {
       error = TRUE
     )
   ) {
-    list_length <- length(json_obj)
-    json_obj[[list_length + 1]] <- input_list
+    add <- dim(json_obj)[1] + 1
+    json_obj[add, ] <- input_list
     return(json_obj)
   }
 }
