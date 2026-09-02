@@ -34,7 +34,7 @@
         "Maintainer": "Winston Chang <winston@posit.co>",
         "Repository": "CRAN",
         "Date/Publication": "2025-02-15 00:50:02 UTC",
-        "Built": "R 4.4.3; ; 2025-06-21 00:30:07 UTC; windows"
+        "Built": "R 4.4.3; ; 2025-07-18 00:45:03 UTC; windows"
       }
     },
     "RColorBrewer": {
@@ -299,7 +299,7 @@
       "description": {
         "Package": "cpp11",
         "Title": "A C++11 Interface for R's C Interface",
-        "Version": "0.5.3",
+        "Version": "0.5.5",
         "Authors@R": "\n    c(\n      person(\"Davis\", \"Vaughan\", email = \"davis@posit.co\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-4777-038X\")),\n      person(\"Jim\",\"Hester\", role = \"aut\", comment = c(ORCID = \"0000-0002-2739-7082\")),\n      person(\"Romain\", \"François\", role = \"aut\", comment = c(ORCID = \"0000-0002-2444-4226\")),\n      person(\"Benjamin\", \"Kietzman\", role = \"ctb\"),\n      person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n    )",
         "Description": "Provides a header only, C++11 interface to R's C\n    interface.  Compared to other approaches 'cpp11' strives to be safe\n    against long jumps from the C API as well as C++ exceptions, conform\n    to normal R function semantics and supports interaction with 'ALTREP'\n    vectors.",
         "License": "MIT + file LICENSE",
@@ -312,19 +312,14 @@
         "Config/testthat/edition": "3",
         "Config/Needs/cpp11/cpp_register": "brio, cli, decor, desc, glue, tibble,\nvctrs",
         "Encoding": "UTF-8",
-        "RoxygenNote": "7.3.2",
+        "RoxygenNote": "7.3.3",
         "NeedsCompilation": "no",
-        "Packaged": "2026-01-20 13:50:54 UTC; davis",
+        "Packaged": "2026-05-06 12:49:17 UTC; davis",
         "Author": "Davis Vaughan [aut, cre] (ORCID:\n    <https://orcid.org/0000-0003-4777-038X>),\n  Jim Hester [aut] (ORCID: <https://orcid.org/0000-0002-2739-7082>),\n  Romain François [aut] (ORCID: <https://orcid.org/0000-0002-2444-4226>),\n  Benjamin Kietzman [ctb],\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Davis Vaughan <davis@posit.co>",
         "Repository": "CRAN",
-        "Date/Publication": "2026-01-20 15:20:02 UTC",
-        "Built": "R 4.4.3; ; 2026-03-16 13:52:18 UTC; windows",
-        "RemoteType": "standard",
-        "RemotePkgRef": "cpp11",
-        "RemoteRef": "cpp11",
-        "RemoteRepos": "http://cran.rstudio.com",
-        "RemoteSha": "0.5.3"
+        "Date/Publication": "2026-05-06 14:40:12 UTC",
+        "Built": "R 4.4.1; ; 2026-06-04 15:07:09 UTC; windows"
       }
     },
     "digest": {
@@ -435,21 +430,22 @@
         "Config/testthat/edition": "3",
         "Config/testthat/parallel": "true",
         "Config/roxygen2/version": "8.0.0",
+        "RoxygenNote": "7.3.3",
         "RemoteType": "github",
         "RemoteHost": "api.github.com",
         "RemoteRepo": "fishdictionary",
         "RemoteUsername": "nmfs-ost",
         "RemoteRef": "HEAD",
-        "RemoteSha": "49a09da8e98e50bb4303f4befcc801a220cdf141",
+        "RemoteSha": "638a456c55e4344ffd663926da2bbf7c1ec8b528",
         "GithubRepo": "fishdictionary",
         "GithubUsername": "nmfs-ost",
         "GithubRef": "HEAD",
-        "GithubSHA1": "49a09da8e98e50bb4303f4befcc801a220cdf141",
+        "GithubSHA1": "638a456c55e4344ffd663926da2bbf7c1ec8b528",
         "NeedsCompilation": "no",
-        "Packaged": "2026-05-20 14:07:11 UTC; Chantel.Wetzel",
+        "Packaged": "2026-09-02 20:20:00 UTC; Chantel.Wetzel",
         "Author": "Chantel R. Wetzel [aut],\n  Christine C. Stawitz [aut, cre],\n  Bai Li [aut],\n  Kelli F. Johnson [aut]",
         "Maintainer": "Christine C. Stawitz <christine.stawitz@noaa.gov>",
-        "Built": "R 4.4.1; ; 2026-05-20 14:07:25 UTC; windows"
+        "Built": "R 4.4.1; ; 2026-09-02 20:20:18 UTC; windows"
       }
     },
     "fontawesome": {
