@@ -1,74 +1,119 @@
 development:
   mode: auto
-
 reference:
 - title: Dictionary Terms
   contents:
+  - AbundanceBasedManagement
+  - Acoustictrawlmethod
+  - Adultequivalent
   - AgeComposition
   - AlaskaFisheriesScienceCenter
   - AlaskaRegionalOffice
+  - AmericanFisheriesAct
+  - Aquaticinvasivespecies
   - Biomass
+  - Bottomtrawlsurvey
+  - CaliforniaCurrentIntegratedEcosystemAssessment
   - CaribbeanFisheryManagementCouncil
   - Catch
   - CatchPerUnitEffort
+  - CatchShare
   - Cohort
+  - CommercialFisheriesLogbookProgram
   - CriticalHabitat
   - DataQualityAct
+  - DeepwaterHorizon
+  - EcosystemandSocioeconomicProfile
+  - Ecosystemapproachtomanagement
   - EcosystemBasedFisheriesManagement
   - EnvironmentalImpactStatement
   - EssentialFishHabitat
   - EssentialFishHabitatHabitatAreaofParticularConcern
+  - ExpendableBathythermograph
   - FisheryEcosystemPlan
   - FisheryImpactStatement
+  - FisheryManagementUnit
   - FishingMortalityAtMaximumSustainableYield
   - Forecast
+  - GeostationaryOperationalEnvironmentalSatellites
   - GreaterAtlanticRegionalFisheriesOffice
   - GulfFisheryManagementCouncil
-  - InstantaneousFishingMortalityRate
+  - HazardAnalysisandCriticalControlPoints
   - InstaneousMortalityRate
+  - InstantaneousFishingMortalityRate
+  - IntegratedEcosystemAssessment
+  - IntegratedOceanObservingSystem
   - InternationalFisheryAgreement
   - Landings
   - LengthComposition
+  - Licenselimitationprogram
+  - limitedaccessprivilegeprogram
   - MagnusonStevensFisheryConservationandManagementReauthorizationActof2006
+  - marineprotectedarea
+  - maximumeconomicyield
   - MaximumSustainableYield
   - MidAtlanticFisheryManagementCouncil
   - MigratoryBirdTreatyAct
+  - NationalCentersforEnvironmentalInformation
+  - NationalCoralReefMonitoringProgram
+  - NationalEnvironmentalSatelliteDataandInformationService
+  - NationalMarineSanctuariesAct
+  - NationalMarineSanctuariesSystem
+  - NationalOceanService
   - NationalStandard
   - NaturalLogOfUnfishedRecruitment
+  - nauticalmile
   - NewEnglandFisheryManagementCouncil
   - NortheastFisheriesScienceCenter
   - NorthPacificFisheryManagementCouncil
   - NorthwestFisheriesScienceCenter
+  - NorthwestIndianFisheriesCommission
+  - NoticeOfViolationandAssessment
   - NumbersAtAge
+  - OceanicNinoIndex
+  - OceanThermalEnergyConversion
+  - OfficeofScienceandTechnology
   - PacificFisheryManagementCouncil
   - PacificIslandsFisheriesScienceCenter
   - PacificIslandsRegionalOffice
   - PlusGroup
+  - productivitysusceptibilityanalysis
   - Projection
+  - QuantitativeEcologyandSocioeconomicsTrainingNOAAprogram
+  - Reasonableandprudentalternative
+  - Reasonableandprudentmeasures
   - Recruits
   - Regionalfisherymanagementorganization
   - RegulatoryFlexibilityAct
+  - Researchvessel
+  - RimofthePacific
+  - Seasurfacetemperature
   - Sex
-  - SpawnerPerRecruit
+  - Singlenucleotidepolymorphism
   - SouthAtlanticFisheryManagementCouncil
   - SouthAtlanticRegionalOffice
   - SoutheastFisheriesScienceCenter
   - SouthwestFisheriesScienceCenter
+  - SpawnerPerRecruit
   - SpawningBiomass
   - SpecialManagementZone
+  - StatementofOrganizationPracticesandProcedures
+  - statusdeterminationcriteria
+  - Stockassessmentreview
+  - TotalAlkalinity
   - Unfished
+  - update_yml
+  - VesselTripReport
   - Weight
   - WestCoastRegionalOffice
   - WesternPacificFisheryManagementCouncil
-  
+  - WoodsHoleAssessmentModel
 - title: R Functions
   contents:
   - add_object
   - read_in
   - shiny_dd
   - validate_Rd
-  
-
 navbar:
   structure:
     left:
@@ -78,24 +123,19 @@ navbar:
     right:
     - github
     - issue
-
   components:
     home:
       icon: fas fa-home fa-lg
       href: index.html
-
     reference:
       text: Reference
       icon: far fa-file-code fa-lg
       href: reference/index.html
-    
     github:
       text: Source Code
       icon: fab fa-github fa-lg
       href: https://github.com/nmfs-ost/fishdictionary
-    
     issue:
       text: Issues
       icon: fas fa-question-circle fa-lg
       href: https://github.com/nmfs-ost/fishdictionary/issues
-      

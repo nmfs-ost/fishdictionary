@@ -31,7 +31,8 @@ This package is designed to grow with input from the fisheries community and is 
 4. After the .R file is populated and saved, run `roxygen2::roxygenize()` to create a corresponding .Rd file to display the documentation entry with proper formatting.
 5. Check that the .Rd file appears to be formatted properly.
 6. Run the command rsconnect::writeManifest("./inst/Shiny") which will create a new manifest.json file that will update the Shiny app on Rstudio connect.
-7. Add the new .R, .Rd, and manifest.json file to a github commitand open a pull request from the fork.
+7. Update yml by running `update_yml()`.
+8. Add the new .R, .Rd, and manifest.json file to a github commit and open a pull request from the fork.
 
 # Citation
 
