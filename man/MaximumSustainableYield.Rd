@@ -24,10 +24,11 @@ insert URL
 MaximumSustainableYield
 }
 \description{
-A maximum level of yield that can be continuously taken from an exploited
-stock under average environmental conditions. It can be defined given
-biological parameters (e.g., natural mortality and stock productivity) or
-using proxies (e.g., the maximum yield at 40\% of unfished biomass). Units
-depend on units of catches.
+The largest long-term average catch or yield that can be taken from a stock or
+stock complex under prevailing ecological, environmental conditions, and
+fishery technological characteristics (e.g., gear selectivity) and the distribution
+of catch among fleets. It can be defined using biological parameters
+(e.g., natural mortality and stock productivity) or proxies (e.g., the maximum
+yield at 40\% of unfished biomass). Units depend on the units used for the catch.
 }
 \keyword{datasets}

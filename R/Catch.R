@@ -1,6 +1,8 @@
 #' Catch
 #'
-#' Everything that died due to fishing, i.e., both landed and discarded fish.
+#' Catch is the total quantity of fish, measured in weight or numbers of fish, taken
+#' in commercial, recreational, subsistence, tribal, and other fisheries. Catch includes
+#' fish that are retained for any purpose, as well as mortality of fish that are discarded.
 #'
 #' @format
 #' \describe{
